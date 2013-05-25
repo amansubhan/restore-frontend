@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Debconf config script for Restore frontend
+
+set -e
+
+# Source debconf library
+. /usr/share/debconf/confmodule
+
+package_name="restore-ee-frontend"
+
+########################################################################
+# The actual configuration
+
+OLDVERSION="$2"
+
+#db_input "high" "${package_name}/webserver" || true
+db_go || true
+
+db_stop
+
+exit 0

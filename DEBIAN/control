@@ -1,0 +1,12 @@
+Package: restore-dc-frontend
+Source: restore
+Version: 4.0b39-1ubuntu1
+Architecture: all
+Maintainer: Adam Lebsack <adam@holonyx.com>
+Installed-Size: 3564
+Depends: adduser, apache2, debconf, irb1.8, libapache2-mod-fcgid, libdaemons-ruby, libeventmachine-ruby, libfastthread-ruby, libfcgi-ruby1.8, libgettext-ruby1.8 (>= 1.9.0), libjson-ruby1.8, libmime-types-ruby, libmysql-ruby1.8, libnet-sftp-ruby, libnet-ssh-ruby1.8 (>= 1.1.1), libruby1.8, libtermios-ruby, libzip-ruby, rails (>= 1.2.2), rake, restore-dc-common, ruby, ruby1.8, wwwconfig-common
+Conflicts: restore-ee-frontend
+Section: web
+Priority: optional
+Description: Restore backup system web frontend (Data Center Edition)
+ Restore backup and restoration system (Data Center Edition)
